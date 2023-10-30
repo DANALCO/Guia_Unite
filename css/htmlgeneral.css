@@ -1,0 +1,213 @@
+.gif-trailer {
+    background-image: url(../imagenes/trailer.gif);
+    background-size: cover;
+    width: 100%;
+    height: 42vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tres_secciones {
+    display: flex;
+}
+
+.primera-tercera {
+    flex: 0.25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.segunda {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recuadro {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+    border-radius: 20px;
+    padding: 50px 50px 20px 50px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+}
+
+.morado {
+    background-image: url(../imagenes/t_common_bg_element.png);
+    background-size: 440px;
+    background-position: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.doble {
+    display: flex;
+}
+
+.ladoss {
+    border-radius: 20px;
+    padding: 50px 50px 20px 50px;
+    flex-direction: column;
+    background-color: white;
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: 40px;
+}
+
+.imagenes {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenes img {
+    margin: 0 8%;
+    width: 90px;
+}
+
+.cart {
+    width: 300px;
+    animation: sube-baja 2s infinite ease-in-out;
+}
+
+/*todo lo relasionado con el skew*/
+.skew {
+    position: relative;
+    width: 70%;
+    height: 100%;
+}
+
+.skew .skew-image {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 5%;
+    bottom: 5%;
+    background-image: url(../imagenes/show.gif);
+    background-size: cover;
+    background-position: center 10%;
+}
+
+.skew .skew-content-bg {
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    top: 0%;
+    left: -30px;
+    right: -20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+    transform: skew(-8deg, 0deg);
+    background-color: white;
+    background-position: center left;
+}
+
+.skew .skew-content {
+    width: 84%;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    left: -8px;
+    right: -20px;
+    color: black;
+    padding: 50px 20px;
+}
+
+.seccionxd {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/*para zona evolucion*/
+.arriba {
+    margin-top: -40px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+    width: 550px;
+    padding: 60px 40px 25px 40px;
+    z-index: 1;
+}
+
+.abajo {
+    margin-right: 120px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 500px;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+    background-size: cover;
+}
+
+/*para zona gol*/
+.arriba2 {
+    margin-right: 110px;
+    margin-top: -280px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+    width: 900px;
+    padding: 30px 540px 20px 40px;
+    z-index: 1;
+}
+
+.abajo2 {
+    margin-left: 390px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 620px;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+    background-size: cover;
+}
+
+.abajo2 img {
+    width: 620px;
+}
+
+/*id estilos*/
+#listos {
+    margin-bottom: -42vw;
+    width: 700px;
+    height: 100px;
+}
+
+#textlistos {
+    font-size: 45px;
+}
+
+#objetoss {
+    width: 90vw;
+}
+
+#textobjetoss {
+    margin: 15px 0;
+    font-size: 40px;
+}
+
+/*animaciones*/
+@keyframes sube-baja {
+
+    0%,
+    100% {
+        transform: translateY(5px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}

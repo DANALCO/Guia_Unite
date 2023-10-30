@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesor S</title>
+    <link rel="shortcut - icon" href="../imagenes/Libros.png">
+    <!--letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:wght@300&family=Permanent+Marker&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <!--css de las flechas derecha e izquierda de la seccion de personaje-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--css de la parte de que es pokemon unite-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/general.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <span>Profesor S</span>
+            <a href="./index.html">Inicio</a>
+            <a href="../html/general.html">General</a>
+            <a href="./html/pokemones.html">Pokémon</a>
+            <a href="#">Acerca de</a>
+        </div>
+    </header>
+    <main>
+        <section id="queEs" style="margin-top: 100px;">
+            <div class="skew container-fluid clearfix">
+                <div class="skew-image"></div>
+                <div class="row">
+                    <div class="skew-wrapper col-md-8 col-lg6 col-xs-12">
+                        <div class="skew-content-bg"></div>
+                        <div class="skew-content">
+                            <h2 style="margin: 0 0 30px 0;">¿Que es Pokémon Unite?</h2>
+                            <p>
+                                Pokémon Unite es un videojuego gratuito de tipo MOBA (Arena de Batalla en Línea
+                                Multijugador)
+                                desarrollado por <a href="https://www.timistudios.com">TiMi Studios</a>, una subsidiaria
+                                de Tencent Games,
+                                en colaboración con <a href="https://www.pokemon.com/el">Pokémon Company</a>.
+                            </p>
+                            <hr>
+                            <p>
+                                El juego fue lanzado en julio de 2021 para la consola Nintendo Switch y dispositivos
+                                móviles, y permite a los jugadores formar equipos y competir en emocionantes batallas en
+                                línea. En Pokémon Unite, los jugadores
+                                eligen a un Pokémon para controlar y se unen a equipos de 5 jugadores en enfrentamientos
+                                5v5.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="trailerRaya" class="raya-div"
+            style="left: 50%;transform: translateX(-50%); width: 520px;height: 60px;">
+            <div style="margin-top: -5px;">
+                <h3 style="font-size: 30px;">TRÁILER DE PRESENTACIÓN</h3>
+            </div>
+        </div>
+        <section id="trailerUnite" class="trailer">
+            <img src="../imagenes/stikerAbsol.png" class="responsive-image">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tijBa8zfozM?si=iPjKI6XBHjm4LriE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <img src="../imagenes/stikerSylveon.png" class="responsive-image">
+        </section>
+        <section id="preparate" class="section2">
+            <div class="content-section">
+                <h2 style="margin: 0 0 30px 0;">¡Preparate para la batalla!</h2>
+                <p>
+                    ¡Fuerza, trabajo en equipo y estrategia son la clave para ganar!<br>
+                    Dos equipos de cinco Pokémon se enfrentan para demostrar quién combate mejor, crea las mejores
+                    estrategias y consigue más puntos.
+                </p>
+                <div style="width: 90%;">
+                    <button class="boton" id="mas_infoo" style="position: absolute;bottom: 4vw;left: 5vw;">Mas información</button>
+                    <img src="../imagenes/t_common_icon_fight.png"
+                        style="width: 7%;position: absolute;left: 29%;bottom: 2%;">
+                    <img src="../imagenes/t_common_icon_EosEnerge.png"
+                        style="width: 11%;;position: absolute;left: 38%;bottom: 0%;">
+                </div>
+            </div>
+            <div class="image-box-section"></div>
+        </section>
+        <div class="degradado2"></div>
+        <section class="personajes">
+            <div class="raya-div" style="margin: 0 0 100px;width: 480px;height: 80px;">
+                <div>
+                    <h3 style="font-size: 45px;">ALINEACIÓN</h3>
+                </div>
+            </div>
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-angle-left"></i>
+                <ul class="carousel">
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/Cinderace.png" alt="Cinderace" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Cinderace</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/Slowbro.png" alt="Slowbro" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Slowbro</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/Eldegoss.png" alt="Eldegoss" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Eldegoss</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/Absol.jpg" alt="Absol" class="fondo-carta" draggable="false">
+                        <div class="linea-carta">Absol</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/lucario.png" alt="Lucario" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Lucario</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/Sylveon.jpg" alt="Sylveon" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Sylveon</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/snorlax.png" alt="Snorlax" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Snorlax</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/wigllytuff.png" alt="Wigllytuff" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Wigllytuff</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/Leafeon.jpg" alt="Leafeon" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Leafeon</div>
+                    </li>
+                    <li class="carta">
+                        <img src="../imagenes/pokemones/charizard.png" alt="Charizard" class="fondo-carta"
+                            draggable="false">
+                        <div class="linea-carta">Charizard</div>
+                    </li>
+                </ul>
+                <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+            <button class="boton"
+                style="position: relative;margin: 50px 0 0 0;z-index: 9;width: 180px;font-size: 25px;height: 60px;">
+                Ver mas
+            </button>
+        </section>
+        <div class="degradado"></div>
+        <section style="height: 700px;margin: 0;">
+            <div class="descargar">
+                <h2>¡Juega donde quieras!</h2>
+                <h2 style="margin: 0 0 30px 0;">Y cuando quieras</h2>
+                <p>
+                    Inicia sesión y disfruta de la conexión multiplataforma entre las versiones para Nintendo Switch y
+                    dispositivos móviles.
+                </p>
+                <hr>
+                <div class="bottom-downloads">
+                    <a href="https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite"><img
+                            src="../imagenes/google-play-store.png" alt="Play Store"></a>
+                    <a href="https://apps.apple.com/app/id1512321575"><img src="../imagenes/apple-store-button.png"
+                            alt="App Store"></a>
+                    <a
+                        href="https://www.nintendo.es/Juegos/Programas-descargables-Nintendo-Switch/Pokemon-UNITE-2009480.html?red_source=nintendoeu.mt.lldns.net%2Fnintendoeu%2Fprod%2Fes_ES%2Fpokemonunite&redirect=true"><img
+                            src="../imagenes/Nintendo-Switch-Logo-PNG.png" alt="Nintendo Switch"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="spikes"></section>
+    <div style="background-color: #4C60A6;height: 30px;"></div>
+    <footer>
+        <div class="doble-footer">
+            <div class="ladoss-footer">
+                <p>¡Sigue a pokémon unite en sus redes sociales!</p>
+                <div class="bottom-redes" style="margin: 10px 0 0 0;">
+                    <a href="https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite"><img class="twitter" src="../imagenes/twitter.png"></a>
+                    <a href="https://apps.apple.com/app/id1512321575"><img class="youtube" src="../imagenes/youtube.png"></a>
+                </div>
+            </div>
+            <div class="ladoss-footer">
+                <div>
+                    <p>Tu opinión es muy importante<br>¡ayúdanos a mejorar!</p>
+                </div>
+                <div>
+                <a href="../html/Formulario.html"><button class="boton form">Rellenar Formulario</button></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="final">
+        <p>
+            Este es un proyecto universitario y no está afiliado a Pokémon Unite, Pokémon Company, ni a los
+            desarrolladores ni a ningún titular de derechos del juego.
+        </p>
+    </div>
+    <script>
+        const wrapper = document.querySelector(".wrapper");
+        const carousel = document.querySelector(".carousel");
+        const firstCardWidth = carousel.querySelector(".carta").offsetWidth;
+        const arrowBtns = document.querySelectorAll(".wrapper i");
+        const carouselChildrens = [...carousel.children];
+
+        let isDragging = false, isAutoPlay = true, startX, startScrollLeft, timeoutId;
+
+        // Get the number of cards that can fit in the carousel at once
+        let cardPerView = Math.round(carousel.offsetWidth / firstCardWidth);
+
+        // Insert copies of the last few cards to beginning of carousel for infinite scrolling
+        carouselChildrens.slice(-cardPerView).reverse().forEach(card => {
+            carousel.insertAdjacentHTML("afterbegin", card.outerHTML);
+        });
+
+        // Insert copies of the first few cards to end of carousel for infinite scrolling
+        carouselChildrens.slice(0, cardPerView).forEach(card => {
+            carousel.insertAdjacentHTML("beforeend", card.outerHTML);
+        });
+
+        // Scroll the carousel at appropriate postition to hide first few duplicate cards on Firefox
+        carousel.classList.add("no-transition");
+        carousel.scrollLeft = carousel.offsetWidth;
+        carousel.classList.remove("no-transition");
+
+        // Add event listeners for the arrow buttons to scroll the carousel left and right
+        arrowBtns.forEach(btn => {
+            btn.addEventListener("click", () => {
+                carousel.scrollLeft += btn.id == "left" ? -firstCardWidth : firstCardWidth;
+            });
+        });
+
+        const dragStart = (e) => {
+            isDragging = true;
+            carousel.classList.add("dragging");
+            // Records the initial cursor and scroll position of the carousel
+            startX = e.pageX;
+            startScrollLeft = carousel.scrollLeft;
+        }
+
+        const dragging = (e) => {
+            if (!isDragging) return; // if isDragging is false return from here
+            // Updates the scroll position of the carousel based on the cursor movement
+            carousel.scrollLeft = startScrollLeft - (e.pageX - startX);
+        }
+
+        const dragStop = () => {
+            isDragging = false;
+            carousel.classList.remove("dragging");
+        }
+
+        const infiniteScroll = () => {
+            // If the carousel is at the beginning, scroll to the end
+            if (carousel.scrollLeft === 0) {
+                carousel.classList.add("no-transition");
+                carousel.scrollLeft = carousel.scrollWidth - (2 * carousel.offsetWidth);
+                carousel.classList.remove("no-transition");
+            }
+            // If the carousel is at the end, scroll to the beginning
+            else if (Math.ceil(carousel.scrollLeft) === carousel.scrollWidth - carousel.offsetWidth) {
+                carousel.classList.add("no-transition");
+                carousel.scrollLeft = carousel.offsetWidth;
+                carousel.classList.remove("no-transition");
+            }
+
+            // Clear existing timeout & start autoplay if mouse is not hovering over carousel
+            clearTimeout(timeoutId);
+            if (!wrapper.matches(":hover")) autoPlay();
+        }
+
+        const autoPlay = () => {
+            if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+            timeoutId = setTimeout(() => carousel.scrollLeft += firstCardWidth, 4000);
+        }
+        autoPlay();
+
+        carousel.addEventListener("mousedown", dragStart);
+        carousel.addEventListener("mousemove", dragging);
+        document.addEventListener("mouseup", dragStop);
+        carousel.addEventListener("scroll", infiniteScroll);
+        wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
+        wrapper.addEventListener("mouseleave", autoPlay);
+    </script>
+</body>
+</html>
