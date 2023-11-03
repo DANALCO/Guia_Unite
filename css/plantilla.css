@@ -1,0 +1,110 @@
+.presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personaje{
+    width: 340px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    border: solid #46AB13 5px;
+}
+.personaje img{
+    width: 570px;
+    display: flex;
+    align-items: center;
+}
+.info{
+    margin: 2px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 400px;
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 6vw 0 2vw;
+    padding: 20px 20px 0 20px;
+    width: 340px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+}
+.trailer{
+    margin-bottom: 60px;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vw 0 6vw;
+}
+.dos{
+    display: flex;
+}
+.der{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 190px;
+    color: black;
+    background-color: white;
+    border-bottom: solid black 2px;
+}
+.iz{
+    height: 35px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid white 2px;
+    color: white;
+}
+.trailer .iframe{
+    width: 600px; 
+    height: 350px;
+}
+.rec{
+    margin: 50px;
+    width: 500px;
+    border: 5px solid #4C60A6;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+}
+.evo{
+    width: 400px;
+}
+.atack{
+    width: 100px;
+}
+th, td{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    vertical-align: middle;/*centra verticalmente el contenido de la celda*/
+    text-align: center;
+}
+
+th h2{
+    margin: 0;
+}
+th p, td p{
+    margin: 0;
+}
+/*defensivo*/
+.def{
+    background-color: #A4E34C;
+    border: solid #46AB13 5px;
+}
+.def .info{
+    border: solid #46AB13 5px;
+}
+.def .iz{
+    background-color: #A4E34C;
+}

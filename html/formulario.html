@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesor S</title>
+    <link rel="shortcut - icon" href="../imagenes/Libros.png">
+    <!--letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Merriweather:wght@300&family=Permanent+Marker&family=Pixelify+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="stylesheet" href="../css/general.css">
+</head>
+
+<body>
+    <header>
+        <header>
+            <div class="navbar">
+                <span>Profesor S</span>
+                <a href="../index.html">Inicio</a>
+                <a href="./general.html">General</a>
+                <a href="./pokemones.html">Pokémon</a>
+            </div>
+        </header>
+    </header>
+    <main>
+        <section style="display: flex;justify-content: center;align-items: center;margin-top: 100px;">
+            <div class="formulario">
+                <h1>¡Tu opinión es muy importante para nosotros!</h1>
+                <form class="formu">
+                    <div class="dos">
+                        <div class="left">
+                            <label for="nombre">Nombre de usuario:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+
+                            <label for="correo">Correo electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+
+                            <label for="genero">Género:</label>
+                            <select id="genero" name="genero">
+                                <option value="masculino">Masculino</option>
+                                <option value="femenino">Femenino</option>
+                                <option value="otro">Prefiero no decir</option>
+                            </select>
+                        </div>
+                        <div class="right">
+                            <label for="calificacion">Calificación de la página:</label>
+                            <input type="number" id="calificacion" name="calificacion" min="0" max="5" required>
+
+                            <label>¿Qué te gustó de la página?</label>
+                            <input type="checkbox" id="accesible" name="gusto" value="accesible"> Es accesible
+                            <br>
+                            <input type="checkbox" id="facil" name="gusto" value="facil"> Es fácil de usar
+                            <br>
+                            <input type="checkbox" id="bonita" name="gusto" value="bonita"> Es bonita
+                            <br>
+                            <input type="checkbox" id="informacion" name="gusto" value="informacion"> Tiene buena información
+                        </div>
+                    </div>
+                    <div class="ultim">
+                        <label for="opinion">¿Alguna opinión o comentario?</label>
+                        <textarea id="opinion" name="opinion"></textarea>
+                        <br>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <section class="spikes"></section>
+    <div style="background-color: #4C60A6;height: 30px;"></div>
+    <footer>
+        <div class="doble-footer">
+            <div class="ladoss-footer">
+                <p>¡Sigue a pokémon unite en sus redes sociales!</p>
+                <div class="bottom-redes" style="margin: 10px 0 0 0;">
+                    <a href="https://play.google.com/store/apps/details?id=jp.pokemon.pokemonunite"><img class="twitter"
+                            src="../imagenes/twitter.png"></a>
+                    <a href="https://apps.apple.com/app/id1512321575"><img class="youtube"
+                            src="../imagenes/youtube.png"></a>
+                </div>
+            </div>
+            <div class="ladoss-footer">
+                <div>
+                    <p>Tu opinión es muy importante<br>¡ayúdanos a mejorar!</p>
+                </div>
+                <div>
+                    <a href="./Formulario.html"><button class="boton form">Rellenar Formulario</button></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="final">
+        <p>Este es un proyecto universitario y no está afiliado a Pokémon Unite, Pokémon Company, ni a los
+            desarrolladores ni a ningún titular de derechos del juego.</p>
+    </div>
+</body>
+
+</html>

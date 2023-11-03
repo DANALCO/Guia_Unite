@@ -83,6 +83,7 @@
     height: 100px;
 }
 #textalin{
+    margin: 15px 0;
     font-size: 45px;
     color: white;
 }
