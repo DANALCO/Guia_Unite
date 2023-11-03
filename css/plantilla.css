@@ -11,7 +11,6 @@
     justify-content: center;
     background-color: white;
     border-radius: 20px;
-    border: solid #46AB13 5px;
 }
 .personaje img{
     width: 570px;
@@ -45,7 +44,7 @@
     flex-direction: column;
     margin: 0 2vw 0 6vw;
 }
-.dos{
+.dosss{
     display: flex;
 }
 .der{
@@ -97,6 +96,12 @@ th h2{
 th p, td p{
     margin: 0;
 }
+    
+.nose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*defensivo*/
 .def{
     background-color: #A4E34C;
@@ -107,4 +112,21 @@ th p, td p{
 }
 .def .iz{
     background-color: #A4E34C;
+}
+.def .personaje{
+    border: solid #46AB13 5px;
+}
+/*ofensivo*/
+.of{
+    background-color: #E44849;
+    border: solid #A92719 5px;
+}
+.of .info{
+    border: solid #A92719 5px;
+}
+.of .iz{
+    background-color: #E44849;
+}
+.of .personaje{
+    border: solid #A92719 5px;
 }

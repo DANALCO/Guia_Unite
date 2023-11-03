@@ -165,6 +165,7 @@ footer p {
     width: 100%;
     margin: 0 50px;
 }
+
 /*recuadro gris final*/
 .final {
     display: flex;
@@ -192,7 +193,7 @@ footer p {
         margin: 5%;
     }
 
-    .cart{
+    .cart {
         width: 220px;
     }
 
@@ -220,23 +221,40 @@ footer p {
     .abajo2 img {
         width: 550px;
     }
-    .dos{
+
+    .dos {
         display: flex;
         justify-content: center;
         padding: 0 40px;
-      }
-      .left, .right {
+    }
+
+    .left,
+    .right {
         margin: 20px;
-      }
+    }
+
+    .presentacion {
+        flex-direction: column;
+    }
+    .descripcion{
+        margin: 0 0 50px 0;
+    }
+    .sec2{
+        margin: 0;
+    }
+    .nose{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 899px) {
-    .doble-footer{
+    .doble-footer {
         flex-direction: column;
     }
 
-    .ladoss-footer{
+    .ladoss-footer {
         margin: 20px 0;
+        width: auto;
     }
 
     .wrapper {
@@ -305,14 +323,29 @@ footer p {
     .abajo2 img {
         width: 500px;
     }
-    .dos{
+
+    .dos {
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding: 0 auto;
-      }
-      .left, .right {
+    }
+
+    .left,
+    .right {
         width: 100%;
         margin: 20px;
-      }
+    }
+    .presentacion {
+        flex-direction: column;
+    }
+    .descripcion{
+        margin: 0 0 50px 0;
+    }
+    .sec2{
+        margin: 0;
+    }
+    .nose{
+        flex-direction: column;
+    }
 }
