@@ -185,23 +185,24 @@
     border-radius: 10px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
-    width: 900px;
-    padding: 30px 40px 20px 540px;
+    width: 800px;
+    padding: 30px 40px 20px 470px;
     z-index: 1;
 }
 
 .abajo3 {
     margin-right: 390px;
+    margin-bottom: -10px;
     overflow: hidden;
     border-radius: 10px;
-    width: 620px;
+    width: 560px;
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
     background-size: cover;
 }
 
-.abajo2 img {
-    width: 620px;
+.abajo3 img {
+    width: 560px;
 }
 
 /*id estilos*/

@@ -223,28 +223,31 @@ footer p {
     }
 
     .arriba3 {
-        margin-left: 240px;
+        margin-left: 180px;
         margin-top: -240px;
         border-radius: 10px;
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
-        width: 650px;
-        padding: 20px 20px 5px 325px;
+        width: 620px;
+        padding: 20px 20px 10px 305px;
         z-index: 1;
     }
-
+    .arriba3 h2{
+        margin-bottom: 10px;
+    }
     .abajo3 {
         margin-right: 340px;
+        margin-bottom: 0.2px;
         overflow: hidden;
         border-radius: 10px;
-        width: 550px;
+        width: 440px;
         z-index: 2;
         box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
         background-size: cover;
     }
 
     .abajo3 img {
-        width: 550px;
+        width: 440px;
     }
 
     .dos {
@@ -392,28 +395,32 @@ footer p {
         width: 500px;
     }
     .arriba3 {
-        margin-left: 200px;
+        margin-left: 150px;
         margin-top: -270px;
         border-radius: 10px;
         background-color: white;
         box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
         width: 600px;
-        padding: 15px 10px 5px 315px;
+        padding: 15px 10px 10px 305px;
         z-index: 1;
+    }
+    .arriba3 h2{
+        margin-bottom: 10px;
     }
 
     .abajo3 {
-        margin-right: 300px;
+        margin-right: 320px;
+        margin-bottom: 35px;
         overflow: hidden;
         border-radius: 10px;
-        width: 500px;
+        width: 420px;
         z-index: 2;
         box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
         background-size: cover;
     }
 
     .abajo3 img {
-        width: 500px;
+        width:420px;
     }
 
     .dos {
