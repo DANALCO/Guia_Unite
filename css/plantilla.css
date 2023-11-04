@@ -130,3 +130,45 @@ th p, td p{
 .of .personaje{
     border: solid #A92719 5px;
 }
+/*auxiliar*/
+.aux {
+    background-color: #FFBD2E;
+    border: solid #F29C22 5px;
+}
+.aux .info{
+    border: solid #F29C22 5px;
+}
+.aux .iz{
+    background-color: #FFBD2E;
+}
+.aux .personaje{
+    border: solid #F29C22 5px;
+}
+/*normal*/
+.nor{
+    border: solid #B354BB 5px;
+    background-color: #CC62D3;
+}
+.nor .info{
+    border: solid #B354BB 5px;
+}
+.nor .iz{
+    background-color: #CC62D3;
+}
+.nor .personaje{
+    border: solid #B354BB 5px;
+}
+/*agil*/
+.ag{
+    border: solid #1F62B1 5px;
+    background-color: #2D8DD7;
+}
+.ag .info{
+    border: solid #1F62B1 5px;
+}
+.ag .iz{
+    background-color: #2D8DD7;
+}
+.ag .personaje{
+    border: solid #1F62B1 5px;
+}
