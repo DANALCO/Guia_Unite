@@ -222,6 +222,31 @@ footer p {
         width: 550px;
     }
 
+    .arriba3 {
+        margin-left: 240px;
+        margin-top: -240px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+        width: 650px;
+        padding: 20px 20px 5px 325px;
+        z-index: 1;
+    }
+
+    .abajo3 {
+        margin-right: 340px;
+        overflow: hidden;
+        border-radius: 10px;
+        width: 550px;
+        z-index: 2;
+        box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+        background-size: cover;
+    }
+
+    .abajo3 img {
+        width: 550px;
+    }
+
     .dos {
         display: flex;
         justify-content: center;
@@ -236,14 +261,57 @@ footer p {
     .presentacion {
         flex-direction: column;
     }
-    .descripcion{
+
+    .descripcion {
         margin: 0 0 50px 0;
     }
-    .sec2{
+
+    .sec2 {
         margin: 0;
     }
-    .nose{
+
+    .nose {
         flex-direction: column;
+    }
+
+    .skew {
+        width: 82%;
+        height: 100%;
+    }
+
+    .skew .skew-image {
+        position: absolute;
+        width: 80%;
+        right: -10%;
+        top: 5%;
+        bottom: 5%;
+        background-image: url(../imagenes/UniteInicio.jpg);
+        background-size: cover;
+        background-position: center 10%;
+    }
+
+    .skew .skew-content-bg {
+        position: absolute;
+        width: 70%;
+        height: 100%;
+        top: 0%;
+        left: -30px;
+        right: -20px;
+        box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+        transform: skew(-8deg, 0deg);
+        background-color: white;
+        background-position: center left;
+    }
+
+    .skew .skew-content {
+        width: 64%;
+        height: 100%;
+        text-align: left;
+        position: relative;
+        left: -8px;
+        right: -20px;
+        color: black;
+        padding: 50px 20px;
     }
 }
 
@@ -323,6 +391,30 @@ footer p {
     .abajo2 img {
         width: 500px;
     }
+    .arriba3 {
+        margin-left: 200px;
+        margin-top: -270px;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+        width: 600px;
+        padding: 15px 10px 5px 315px;
+        z-index: 1;
+    }
+
+    .abajo3 {
+        margin-right: 300px;
+        overflow: hidden;
+        border-radius: 10px;
+        width: 500px;
+        z-index: 2;
+        box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+        background-size: cover;
+    }
+
+    .abajo3 img {
+        width: 500px;
+    }
 
     .dos {
         display: flex;
@@ -336,16 +428,59 @@ footer p {
         width: 100%;
         margin: 20px;
     }
+
     .presentacion {
         flex-direction: column;
     }
-    .descripcion{
+
+    .descripcion {
         margin: 0 0 50px 0;
     }
-    .sec2{
+
+    .sec2 {
         margin: 0;
     }
-    .nose{
+
+    .nose {
         flex-direction: column;
+    }
+    .skew {
+        width: 100%;
+        height: 100%;
+    }
+
+    .skew .skew-image {
+        position: absolute;
+        width: 80%;
+        right: 0;
+        top: 5%;
+        bottom: 5%;
+        background-image: url(../imagenes/UniteInicio.jpg);
+        background-size: cover;
+        background-position: center 10%;
+    }
+
+    .skew .skew-content-bg {
+        position: absolute;
+        width: 60%;
+        height: 100%;
+        top: 0%;
+        left: -30px;
+        right: -20px;
+        box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+        transform: skew(-8deg, 0deg);
+        background-color: white;
+        background-position: center left;
+    }
+
+    .skew .skew-content {
+        width: 54%;
+        height: 100%;
+        text-align: left;
+        position: relative;
+        left: -8px;
+        right: -20px;
+        color: black;
+        padding: 50px 20px;
     }
 }

@@ -178,6 +178,31 @@
 .abajo2 img {
     width: 620px;
 }
+/*para recompensas*/
+.arriba3 {
+    margin-left: 110px;
+    margin-top: -280px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+    width: 900px;
+    padding: 30px 40px 20px 540px;
+    z-index: 1;
+}
+
+.abajo3 {
+    margin-right: 390px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 620px;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.45) 5px 10px 20px 0;
+    background-size: cover;
+}
+
+.abajo2 img {
+    width: 620px;
+}
 
 /*id estilos*/
 #listos {
