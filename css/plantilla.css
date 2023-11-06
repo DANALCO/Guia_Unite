@@ -102,6 +102,9 @@ th p, td p{
     justify-content: center;
     align-items: center;
 }
+table{
+    background-color: white;
+}
 /*defensivo*/
 .def{
     background-color: #A4E34C;
