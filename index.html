@@ -29,6 +29,7 @@
             <a href="./index.html" class="activo">Inicio</a>
             <a href="./html/general.html">General</a>
             <a href="./html/pokemones.html">Pokémon</a>
+            <a href="./html/noticias.html">Noticias</a>
         </div>
     </header>
     <main>
@@ -94,6 +95,28 @@
                 </div>
             </div>
             <div class="image-box-section"></div>
+        </section>
+        <section style="align-items: center;justify-content: center;display: flex;">
+            <div class="noticias">
+                <div class="not">
+                    <p>Últimas novedades</p>
+                </div>
+                <div class="lista">
+                    <div class="noti" onclick="mostrarNoticia('noti1')">
+                        <img src="../imagenes/cover.jpg">
+                        <p>¡EL EQUIPO DE POKÉMON UNITE NOS TRAE NOTICIAS EMOCIONANTES!</p>
+                    </div>
+                    <div class="noti" onclick="mostrarNoticia('noti2')" style="margin-bottom: 0;">
+                        <img src="./imagenes/cover (2).jpg">
+                            <p>PIKA PIKA!</p>
+                    </div>
+                </div>
+                <a href="./html/noticias.html">
+                    <button class="boton" style="width: 180px;font-size: 25px;height: 60px;margin-bottom: 40px;">
+                        Ver todas
+                    </button>
+                </a>
+            </div>
         </section>
         <div class="degradado2"></div>
         <section class="personajes">
@@ -235,6 +258,48 @@
             desarrolladores ni a ningún titular de derechos del juego.
         </p>
     </div>
+    <!--noticias-->
+    <div class="oscuridad"></div>
+    <div class="noticia" id="noti1">
+        <div class="conten-noti">
+            <p>19 de julio 2023</p>
+            <h2>¡EL EQUIPO DE POKÉMON UNITE NOS TRAE NOTICIAS EMOCIONANTES!</h2>
+            <hr>
+            <img src="../imagenes/cover.jpg">
+            <p>¡Feliz segundo aniversario, Entrenadores!<br>
+                Gracias al apoyo de jugadores como vosotros, este 21 de julio celebraremos el segundo aniversario de
+                Pokémon
+                UNITE con eventos, recompensas y nuevas licencias Unite que podréis probar. Esta celebración no sería
+                posible sin vosotros y, por ello, queremos daros las gracias.</p>
+        </div>
+        <div class="retorn-noti">
+            <button class="boton">
+                Retornar
+            </button>
+        </div>
+    </div>
+    <div class="noticia" id="noti2">
+        <div class="conten-noti">
+            <p>5 de agosto 2022</p>
+            <h2>PIKA PIKA!</h2>
+            <hr>
+            <img src="../imagenes/cover (2).jpg">
+            <p>
+                ¡Pokémon UNITE ha celebrado recientemente su primer aniversario! Y para conmemorarlo, se han añadido al
+                juego nuevos Pokémon y funciones, además de muchos eventos y sorpresas. La celebración comienza con el
+                combate Pika Pika, una nueva modalidad de combate rápido que estará disponible a partir de mañana. En
+                estos
+                combates electrizantes, todos los Pokémon del encuentro, tanto los jugadores como los Pokémon salvajes,
+                ¡son
+                Pikachu!
+            </p>
+        </div>
+        <div class="retorn-noti">
+            <button class="boton">
+                Retornar
+            </button>
+        </div>
+    </div>
     <script>
         const wrapper = document.querySelector(".wrapper");
         const carousel = document.querySelector(".carousel");
@@ -319,6 +384,26 @@
         carousel.addEventListener("scroll", infiniteScroll);
         wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
         wrapper.addEventListener("mouseleave", autoPlay);
+        /*mostar noticias*/
+        function mostrarNoticia(noticiaId) {
+            const oscuridad = document.querySelector(".oscuridad");
+            oscuridad.style.display = 'flex';
+
+            // Muestra la noticia seleccionada
+            const noticiaSeleccionada = document.getElementById(noticiaId);
+            noticiaSeleccionada.style.display = 'flex';
+
+            //evento de clic al botón "Retornar" y oscuridad en la noticia para ocultar la noticia y la oscuridad
+            const botonRetornar = noticiaSeleccionada.querySelector(".boton");
+            botonRetornar.addEventListener("click", function () {
+                oscuridad.style.display = 'none';
+                noticiaSeleccionada.style.display = 'none';
+            });
+            oscuridad.addEventListener("click", function () {
+                oscuridad.style.display = 'none';
+                noticiaSeleccionada.style.display = 'none';
+            });
+        }
     </script>
 </body>
 

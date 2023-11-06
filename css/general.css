@@ -181,6 +181,18 @@ footer p {
 
 /*todo lo relacionado con lo responsivo*/
 @media screen and (max-width: 1169px) {
+    .noti{
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 40px;
+        width: 100%;
+    }
+    .noti p{
+        font-weight: bold;
+        margin: 0;
+        margin-top: 15px;
+    }
+
     .wrapper {
         width: 820px;
     }
@@ -320,6 +332,17 @@ footer p {
 }
 
 @media screen and (max-width: 899px) {
+    .notia{
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 40px;
+        width: 100%;
+    }
+    .notia p{
+        font-weight: bold;
+        margin: 0;
+        margin-top: 15px;
+    }
     .doble-footer {
         flex-direction: column;
     }

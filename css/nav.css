@@ -1,7 +1,7 @@
 /* Todo lo relacionado con la barra de navegación */
 .navbar {
     border-radius: 0;
-    z-index: 999;
+    z-index: 980;
     background-color: #4C60A6;
     color: white;
     display: flex;
